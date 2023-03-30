@@ -14,6 +14,6 @@ class PaymentServiceTest {
         PaymentService paymentService = new PaymentService(mockedHttpClient);
         paymentService.execute(10);
 
-        verify(mockedHttpClient).sendPayments(argThat(payments -> payments.size() == 10 ));
+        verify(mockedHttpClient).sendPayments(argThat(payments -> payments.size() == 10));
     }
 }

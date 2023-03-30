@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.portx.dlovero</groupId>
-    <artifactId>supplierRestClient</artifactId>
+    <artifactId>supplierestclient</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>supplierRestClient</name>
     <description>Supplier simulator Rest Client for PortX</description>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.13.4.1</version>
+            <version>2.14.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
